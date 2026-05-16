@@ -35,7 +35,7 @@ import { getBreeds } from '../services/api.js'
 const { data, isLoading, isError, refetch } = useQuery({
   queryKey: ['breeds'],
   queryFn: getBreeds,
-  staleTime: 1000 * 60 * 10 // 10 minutes
+  staleTime: 1000 * 60 * 10
 })
 </script>
 

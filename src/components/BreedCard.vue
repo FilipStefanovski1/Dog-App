@@ -47,7 +47,7 @@ const formattedName = computed(() => {
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  padding: 14px 8px;
+  padding: 12px 8px;
 }
 h3 {
   font-size: 16px;

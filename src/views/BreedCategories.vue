@@ -125,8 +125,8 @@ const continentSections = computed(() =>
   buildSections(continentMap, 'Mixed / Unknown Origin')
 )
 
-function formatName(name) {
-  return name.charAt(0).toUpperCase() + name.slice(1)
+function formatName(breed) {
+  return breed.charAt(0).toUpperCase() + breed.slice(1)
 }
 </script>
 

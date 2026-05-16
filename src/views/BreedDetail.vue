@@ -50,7 +50,7 @@ const router = useRouter()
 
 const name = computed(() => route.params.name)
 const displayName = computed(() => {
-  const n = name.value || ''
+  let n = name.value || ''
   return n.charAt(0).toUpperCase() + n.slice(1)
 })
 
